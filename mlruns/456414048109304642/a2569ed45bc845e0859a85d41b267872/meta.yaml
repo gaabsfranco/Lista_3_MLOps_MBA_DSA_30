@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/aa/Desktop/projeto_mlops_final/mlruns/456414048109304642/a2569ed45bc845e0859a85d41b267872/artifacts
+end_time: 1749167160442
+entry_point_name: ''
+experiment_id: '456414048109304642'
+lifecycle_stage: active
+run_id: a2569ed45bc845e0859a85d41b267872
+run_name: calm-midge-500
+run_uuid: a2569ed45bc845e0859a85d41b267872
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749167160343
+status: 3
+tags: []
+user_id: aa

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/aa/Desktop/projeto_mlops_final/mlruns/456414048109304642/b33fb11c391a4747aea7550e30d07923/artifacts
+end_time: 1749167160321
+entry_point_name: ''
+experiment_id: '456414048109304642'
+lifecycle_stage: active
+run_id: b33fb11c391a4747aea7550e30d07923
+run_name: SimToSeis_ET_Model
+run_uuid: b33fb11c391a4747aea7550e30d07923
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749167160220
+status: 3
+tags: []
+user_id: aa

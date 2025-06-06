@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/aa/Desktop/projeto_mlops_final/mlruns/456414048109304642/1a71c7ea4a164cbc9fda2ddfac9b6858/artifacts
+end_time: 1749165045795
+entry_point_name: ''
+experiment_id: '456414048109304642'
+lifecycle_stage: active
+run_id: 1a71c7ea4a164cbc9fda2ddfac9b6858
+run_name: Aula2 MLOps Exp 3
+run_uuid: 1a71c7ea4a164cbc9fda2ddfac9b6858
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749165033575
+status: 4
+tags: []
+user_id: aa

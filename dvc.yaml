@@ -1,0 +1,12 @@
+stages:
+  run_pipeline:
+    cmd: python src/main.py
+    deps:
+      - src/main.py
+      - src/ml_module.py
+      - data/raw/sim_slice.npy
+      - data/raw/seismic_slice.npy
+      - data/raw/seismic_slice_GT.npy
+    outs:
+      - seis_estimado.npy
+      - residuos.npy

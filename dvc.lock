@@ -1,0 +1,34 @@
+schema: '2.0'
+stages:
+  run_pipeline:
+    cmd: python src/main.py
+    deps:
+    - path: data/raw/seismic_slice.npy
+      hash: md5
+      md5: b89efbbc51b4003adb9191a9bcde8951
+      size: 9314720
+    - path: data/raw/seismic_slice_GT.npy
+      hash: md5
+      md5: 038bcf2c0c0e0e836e140cbe9350bedd
+      size: 9314720
+    - path: data/raw/sim_slice.npy
+      hash: md5
+      md5: c5755d17e2985bfcb90731e71f6b2e47
+      size: 70112
+    - path: src/main.py
+      hash: md5
+      md5: 5b07740c10c2919d845931a645773811
+      size: 6913
+    - path: src/ml_module.py
+      hash: md5
+      md5: 7114be0b22984a62bd6230d19d5cd66d
+      size: 11215
+    outs:
+    - path: residuos.npy
+      hash: md5
+      md5: eb89b1c4f973f6ebb2698ca754c27460
+      size: 9314720
+    - path: seis_estimado.npy
+      hash: md5
+      md5: e7e49f5cfaf394d6a12c83a02fbc9ec7
+      size: 9314720
